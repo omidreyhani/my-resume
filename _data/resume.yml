@@ -1,294 +1,290 @@
-####
-## @file
-## Resume data
-##
-## All your resume information should be entered here rather than the HTML files or elsewhere.
-##
-## This section contains the same information as jsonresume.org schema, namespaced to site.resume and re-formatted by the
-## Jekyll system to json.
-####
-
+---
+"$schema": https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json
 basics:
-  name: "John Doe"
-  label: "Business analyst extraordinaire"
-  image: "https://bradczerniak.com/apple-touch-icon.png"
-  summary: "Business analyst and creative problem-solver. Looking for challenges"
-  website: "https://example.com"
-  email: "johndoe@example.com"
-  phone: "(248) 721-0350"
+  name: Omid Reyhani
+  label: Senior Software Engineer @ Betsson Group | Developing High-Performance Systems
+  image: ''
+  email: omid.reyhani@gmail.com
+  phone: "+35679760086"
+  url: http://omidreyhani.github.io/
+  summary: |-
+    Backend:
+
+    Developed high-performance backend systems using .NET Core, Kubernetes, Kafka, and RabbitMQ.
+    Frontend:
+
+    Skilled in Angular and React, TypeScript, JavaScript, Redux, RxJS, Tailwind, Bootstrap, CSS, SASS
+    DevOps and Testing:
+
+    Managed CI/CD pipelines using GitHub Actions, TeamCity, and Octopus Deploy.
+
+    Designed and executed comprehensive testing strategies, including e2e, integration, and unit tests, with tools like xUnit, NUnit, MSTest, Jest, and Cypress.
   location:
-    address: "1428 Mark Ave"
-    postalCode: "MI 48146"
-    city: "Lincoln Park"
-    countryCode: "US"
-    region: "Michigan"
+    countryCode: US
+    address: Malta
   profiles:
-    - network: "Twitter"
-      username: "ao5357"
-      url: "https://twitter.com/ao5357"
-    - network: "LinkedIn"
-      username: "bczerniak"
-      url: "https://www.linkedin.com/in/bczerniak"
+  - network: LinkedIn
+    username: reyhani
+    url: https://www.linkedin.com/in/reyhani/
+  - network: Twitter
+    username: omidreyhani
+    url: https://twitter.com/omidreyhani
 work:
-  - company: "Kingston Enterprises (Midas)"
-    position: "Lubrication technician"
-    website: "https://www.midas.com/detroit/store.aspx?shopnum=6754&dmanum=264"
-    location:
-      address: "2995 East Big Beaver Road"
-      postalCode: "MI 48083"
-      city: "Troy"
-      countryCode: "US"
-      region: "Michigan"
-    startDate: "2000-05-01"
-    endDate: "2000-10-31"
-    summary: "Performed oil changes, assisted the mechanics with brakes, exhaust, and other repairs, and cleaned the shop."
-    highlights:
-      - "Reliably worked 56-hour weeks for the whole summer"
-      - "Implemented a system for tracking brake shoe reclamation"
-  - company: "Wayne State University Housing"
-    position: "Network technician and Front desk attendant"
-    website: "https://housing.wayne.edu/"
-    location:
-      address: "5221 Gullen Mall"
-      postalCode: "MI 48202"
-      city: "Detroit"
-      countryCode: "US"
-      region: "Michigan"
-    startDate: "2004-08-01"
-    endDate: "2005-05-31"
-    summary: "Installed wireless routers and let people into the dormitory"
-    highlights:
-      - "Presented to Housing department heads to pitch becoming first IT RA"
-  - company: "Barnes and Noble Booksellers"
-    position: "Retail associate"
-    website: "https://wayne.bncollege.com/shop/wayne/home"
-    location:
-      address: "82 West Warren"
-      postalCode: "MI 48202"
-      city: "Detroit"
-      countryCode: "US"
-      region: "Michigan"
-    startDate: "2006-07-01"
-    endDate: "2006-08-31"
-    summary: "Helped stock satellite location for opening and worked the register"
-    highlights:
-      - "Learned to use point-of-sale machines"
-  - company: "Southfield Public Library"
-    position: "Adult Services Intern"
-    website: "http://www.sfldlib.org/"
-    location:
-      address: "26300 Evergreen Road"
-      postalCode: "MI 48076"
-      city: "Southfield"
-      countryCode: "US"
-      region: "Michigan"
-    startDate: "2007-02-12"
-    endDate: "2008-05-08"
-    summary: "Trainee librarian with special projects"
-    highlights:
-      - "Provided quality reference service in a diverse, fast-paced environment"
-      - "Active in strategic planning process: assessment and evaluation"
-      - "Improved year-over-year efficiency of paper tax form program"
-  - company: "Canton Public Library"
-    position: "Digital Resources Developer"
-    website: "http://www.cantonpl.org/"
-    location:
-      address: "1200 S Canton Center Rd"
-      postalCode: "MI 48188"
-      city: "Canton"
-      countryCode: "US"
-      region: "Michigan"
-    startDate: "2008-05-08"
-    endDate: "2013-01-25"
-    summary: "Technology librarian that did bleeding-edge stuff"
-    highlights:
-      - "Developed modules and themes for a Drupal-based website"
-      - "Designed UI and incorporated branding for site and catalog"
-      - "Launched a media and digitization lab"
-      - "Hosted hacker/maker events and online programming"
-      - "Presented at conferences about mobile devices and other technologies"
-  - company: "Commercial Progression"
-    position: "Senior Drupal Developer"
-    website: "https://www.commercialprogression.com"
-    location:
-      address: "455 E Cady St #302"
-      postalCode: "MI 48167"
-      city: "Northville"
-      countryCode: "US"
-      region: "Michigan"
-    startDate: "2013-02-04"
-    endDate: "2018-08-14"
-    summary: "Developed world-class Drupal websites for a wide variety of clients"
-    highlights:
-      - "Built sites, modules, and themes for Drupal-based client sites"
-      - "Optimized continuous integration and developer workflow"
-      - "Incubated brand-new lean Discovery and Architecture"
-  - company: "Symmetri Marketing Group"
-    position: "Director of Technology"
-    website: "https://www.symmetrimarketing.com"
-    location:
-      address: "455 E Cady St #302"
-      postalCode: "MI 48167"
-      city: "Northville"
-      countryCode: "US"
-      region: "Michigan"
-    startDate: "2018-08-14"
-    endDate: "2020-02-14"
-    summary: "Led a talented team of Drupal developers"
-    highlights:
-      - "Nurtured and supervised a team of developers"
-      - "Executed a vision for reusable, component-based Drupal archtecture"
-      - "Balanced administrative duties with development and site support"
-      - "Liaison to sales, client service, and project management teams"
-  - company: "Solve it once"
-    position: "Proprietor"
-    website: "https://solveitonce.com"
-    location:
-      address: "1428 Mark Ave"
-      postalCode: "MI 48146"
-      city: "Lincoln Park"
-      countryCode: "US"
-      region: "Michigan"
-    startDate: "2020-04-20"
-    summary: "Started the greatest tech company this world has ever seen"
-    highlights:
-      - "Impress clientele with prompt, high-quality Drupal and JAMstack work"
-      - "Provide fast, low-waste branding, UX, and other services"
-      - "Contribute open source solutions to the community"
-volunteer:
-  - organization: "Canton Historical Society"
-    position: "Board member (secretary, treasurer)"
-    website: "http://www.cantonhistoricalsociety.org/"
-    startDate: "2011-12-01"
-    endDate: "2014-12-31"
-    summary: "Served the people of Canton in preserving and teaching the township's history"
-    highlights:
-      - "Created two iterations of the society's website"
-      - "Helped coordinate and execute the Brews, Brats, and Bands at the Barn annual fundraiser"
-      - "Kept minutes and ledgers fastidiously as secretary and treasurer"
-      - "Was a real stickler for parliamentary procedure"
-  - organization: "Lower Barriers"
-    position: "Founding member"
-    website: "https://lowerbarriers.org"
-    startDate: "2020-06-03"
-    summary: "Open source software nonprofit for improving civic engagement"
-    highlights:
-      - "Filed articles of incorporation and other paperwork"
-      - "Created code repositories that make it easier to run for office"
+- name: Betsson Group
+  position: Senior Software Engineer
+  startDate: '2021-12-31'
+  endDate: ''
+  highlights: []
+  summary: |-
+    Backend:
+    Developed high-performance backend systems using .NET Core, Kubernetes, Kafka, and RabbitMQ
+
+    Frontend:
+    Skilled in Angular and React, TypeScript, JavaScript, Redux, RxJS, Tailwind, Bootstrap, CSS, SASS
+
+    DevOps and Testing:
+    Managed CI/CD pipelines using GitHub Actions, TeamCity, and Octopus Deploy. Designed and executed comprehensive testing strategies, including e2e, integration, and unit tests, with tools like xUnit, NUnit, MSTest, Jest, and Cypress
+  url: https://www.linkedin.com/company/betsson-group/
+  location: Malta
+- name: International Atomic Energy Agency (IAEA)
+  position: Senior Software Engineer
+  startDate: '2016-07-31'
+  endDate: '2020-12-31'
+  highlights: []
+  summary: |-
+    Developing, enhancing secure applications (Angular, ASP.NET), providing an easy interface for states and regional authorities to foster the exchange of scientific and technical information.  data access, report, business intelligence, and …
+    Integration with other internal systems
+    Responsible for bootstrapping both client and server-side of the applications
+    Unit testing, integration, and e2e testing
+    CI using TFS build server and InRelease
+    Technologies and Tools: Angular, Typescript, ASP.NET, .NET, C#, JavaScript, SQL, Entity Framework, .Net Core, NodeJs, Bootstrap, Sass, Git, Docker, TDD, Bootstrap, CQRS, Event Sourcing, RabbitMQ
+  url: https://www.linkedin.com/company/iaea/
+  location: Austria
+- name: EPAM Systems
+  position: Senior Engineer
+  startDate: '2015-04-30'
+  endDate: '2016-07-31'
+  highlights: []
+  summary: "Project: Development of a Calculation Engine for an insurance company\n\nTasks:
+    \ \n\nDeveloping web services using WCF\nSolely responsible for developing frontend
+    UI with angularjs and .net web api\nDesigning and developing databases\nDeployment
+    and maintenance of software products\nCI using TFS build server and Octopus\nImplementing
+    unit and integration tests\nDaily meeting with customers from USA\n\nTechnologies
+    and Tools: TFS, Microsoft SQL Server, .NET, WCF, C#, AngularJs"
+  url: https://www.linkedin.com/company/epam-systems/
+  location: Belarus
+- name: ProntoSoft
+  position: Senior Software Engineer
+  startDate: '2014-12-31'
+  endDate: '2015-04-30'
+  highlights: []
+  summary: "Project:  Development for irr.ru web site\n\nTasks and Accomplishments:
+    \ \n\nPerformed technical analysis of latest technologies\nProvided basic guideline
+    for E2E and unit testing\nImplemented business requirements using JavaScript\n\nTechnologies
+    and Tools: MySQL, WebStorm, JIRA, Grunt, NodeJs, AngularJS, ExtJs, LESS, Twitter
+    Bootstrap"
+  url: https://www.linkedin.com/company/prontosoft/
+  location: Belarus
+- name: Top Soft
+  position: Senior Software Engineer
+  startDate: '2012-09-30'
+  endDate: '2013-11-30'
+  highlights: []
+  summary: "Project:  HTML5 Applications for Tablets (jQuery mobile)\n\nTasks and
+    Accomplishments:  \n\nDeveloped services using WCF\nBuilt an interface for generating
+    MDX queries to OLAP databases\nOptimized WCF service\n\nTechnologies and Tools:
+    SQL Server, MS SQL Analysis Services, jQuery, d3js, ExtJs OLAP, MDX, SSAS .NET,
+    C#, WCF"
+  url: https://www.linkedin.com/company/galaktika-corp-/
+  location: Belarus
+- name: Noor etisal
+  position: Key Software Developer
+  startDate: '2011-05-31'
+  endDate: '2012-05-31'
+  highlights: []
+  summary: "Project: Business Evaluation Software and Project Management\n\nTasks
+    and Accomplishments:  \n\nDeveloped application logic using C#\nWas responsible
+    for designing and coding\nPerformed unit testing\n\nTechnologies and Tools: Microsoft
+    SQL Server, .NET, WPF, ASP.NET, C#"
+  url: ''
+  location: Iran
+- name: Khobre Pardaz Pars Co.Ltd
+  position: Key Software Developer
+  startDate: '2010-03-31'
+  endDate: '2011-05-31'
+  highlights: []
+  summary: "Project: Bank lottery application\n\nTasks and Accomplishments:  \n\nWas
+    responsible for requirement gathering for product design and application development\nImplemented
+    business logic inside stored procedures, inside c# application\nPerformed extensive
+    database programming (sync data with bank, lottery algorithms implementations)\nWas
+    engaged in designing reports using Crystal Report\nDesigned a complete new interface
+    for existing ERP application / Silverlight whiteboard & image editor\n\nTechnologies
+    and Tools: Microsoft SQL Server, DB2, Microsoft SQL Integration services, WPF,
+    WCF, Silverlight, ADO.NET SQL, Crystal Reports"
+  url: ''
+  location: Iran
+- name: Partian
+  position: Developer
+  startDate: '2009-01-31'
+  endDate: '2010-03-31'
+  highlights: []
+  summary: "Project: Full JavaScript based client framework (ZINO) including features
+    like xml markup, client side proxy builder for web services, UI controls. Office
+    automation software (Dario) embracing SOA architecture and exploiting WCF using
+    ZINO framework\n\nTasks and Accomplishments:  \n\nPerformed both frontend and
+    backend development of the project\nDeveloped a proxy builder for WCF services
+    for client applications\n\nTechnologies and Tools: Microsoft SQL Server, Microsoft
+    BizTalk, .NET, c#, BPMN, Workflow, JavaScript"
+  url: ''
+  location: Tehran
+- name: Next2Friends.com
+  position: Developer
+  startDate: '2007-11-30'
+  endDate: '2008-07-31'
+  highlights: []
+  summary: "Project: Advanced social networking platform tailored for mobile devices
+    and streaming real-time video from the mobile to the web\n\nTasks and Accomplishments:
+    \ \n\nDesigned and developed a complex n-tier web application\nDesigned and implemented
+    database entities (tables, stored procedures)\nUtilized multiple design and architectural
+    patterns\n\nTechnologies and Tools: Microsoft SQL Server, VSS, .NET, C#, ASP.NET,
+    SQL"
+  url: https://www.linkedin.com/company/next2friends.com/
+  location: Belarus
+volunteer: []
 education:
-  - institution: "Troy Athens High School"
-    location:
-      address: "4333 John R Rd"
-      postalCode: "MI 48085"
-      city: "Troy"
-      countryCode: "US"
-      region: "Michigan"
-    area: "General studies"
-    studyType: "High School Diploma"
-    startDate: "1999-09-01"
-    endDate: "2003-06-15"
-    gpa: "3.85"
-    courses:
-      - "Auto mechanics"
-      - "Computer science 1"
-      - "AP Chemistry"
-      - "AP American History"
-      - "AP World History"
-      - "AP Economics"
-      - "AP Calculus AB"
-  - institution: "Wayne State University"
-    location:
-      address: "5221 Gullen Mall"
-      postalCode: "MI 48202"
-      city: "Detroit"
-      countryCode: "US"
-      region: "Michigan"
-    area: "Economics"
-    studyType: "Bachelor of Arts"
-    startDate: "2003-09-01"
-    endDate: "2006-12-31"
-    gpa: "3.38"
-    courses:
-      - "Labor economics"
-      - "Labor history"
-      - "German"
-      - "Spanish"
-      - "Film history"
-      - "American culture"
-  - institution: "Wayne State University"
-    location:
-      address: "5221 Gullen Mall"
-      postalCode: "MI 48202"
-      city: "Detroit"
-      countryCode: "US"
-      region: "Michigan"
-    area: "Library and Information Science"
-    studyType: "Master"
-    startDate: "2006-09-01"
-    endDate: "2008-04-29"
-    gpa: "3.91"
-    courses:
-      - "Multiculturalism"
-      - "Web design"
-      - "Digital libraries"
-      - "Scripting languages"
-      - "Competitive intelligence and data mining"
-      - "Advanced reference"
-      - "Advanced searching"
-awards:
-  - title: "Best Crew"
-    date: "2003-05-14"
-    awarder: "Athens High School Theatre Department"
-    summary: "Stage Managed 2 out of 3 productions my senior year and basically lived in the auditorium"
-publications:
-  - name: "Library Websites Adapt to Smartphone Growth"
-    publisher: "Library Journal"
-    releaseDate: "2012-07-26"
-    website: "http://www.thedigitalshift.com/2012/07/mobile/library-websites-adapt-to-smartphone-growth/"
-    summary: "Prescient predictions of responsive design in libraries"
+- institution: Belarusian National Technical University
+  area: Information technologies and systems
+  studyType: Master of science in engineering
+  startDate: '2007-12-31'
+  endDate: '2008-12-31'
+  score: ''
+  courses: []
+- institution: Belarusian National Technical University
+  area: Software of information technologies
+  studyType: Bachelor of science in engineering
+  startDate: '2002-12-31'
+  endDate: '2007-12-31'
+  score: ''
+  courses: []
+awards: []
+certificates: []
+publications: []
 skills:
-  - name: "HTML"
-    level: "Expert"
-    keywords: ["Hypertext Markup Language", "HTML5"]
-  - name: "Drupal"
-    level: "Expert"
-    keywords: ["Drupal 8", "Drupal 9", "Views", "Paragraphs", "modules and themes"]
-  - name: "JavaScript"
-    level: "Expert"
-    keywords: ["JS", "jQuery", "nodejs", "vanilla JS", "npm", "ES6"]
-  - name: "CSS"
-    level: "Expert"
-    keywords: ["Cascading Stylesheets", "CSS3"]
-  - name: "Accessibility"
-    level: "Expert"
-    keywords: ["a11y", "WAI ARIA", "WCAG AAA", "Section 508"]
-  - name: "git"
-    level: "Expert"
-    keywords: ["GitHub", "Version control"]
-  - name: "PHP"
-    level: "Expert"
-    keywords: ["PHP Hypertext Preprocessor", "PHP 7"]
-  - name: "MySQL"
-    level: "Expert"
-    keywords: ["MariaDB", "Queries", "Relational databases", "PDO"]
-  - name: "Responsive web design"
-    level: "Expert"
-    keywords: ["RWD", "Mobile first", "Media queries", "components", "style guides"]
-  - name: "Progressive enhancement"
-    level: "Expert"
-    keywords: ["Graceful degradation", "usability"]
+- name: React.js
+  level: ''
+  keywords: []
+- name: ".NET Framework"
+  level: ''
+  keywords: []
+- name: ASP.NET Core
+  level: ''
+  keywords: []
+- name: GraphQL
+  level: ''
+  keywords: []
+- name: Entity Framework
+  level: ''
+  keywords: []
+- name: ASP.NET
+  level: ''
+  keywords: []
+- name: Node.js
+  level: ''
+  keywords: []
+- name: RabbitMQ
+  level: ''
+  keywords: []
+- name: Continuous Integration and Continuous Delivery (CI/CD)
+  level: ''
+  keywords: []
+- name: Docker
+  level: ''
+  keywords: []
+- name: ASP.NET MVC
+  level: ''
+  keywords: []
+- name: Jira
+  level: ''
+  keywords: []
+- name: Vue.js
+  level: ''
+  keywords: []
+- name: Css
+  level: ''
+  keywords: []
+- name: Bootstrap
+  level: ''
+  keywords: []
+- name: JavaScript
+  level: ''
+  keywords: []
+- name: Angular
+  level: ''
+  keywords: []
+- name: Git
+  level: ''
+  keywords: []
+- name: Kubernetes
+  level: ''
+  keywords: []
+- name: RxJS
+  level: ''
+  keywords: []
+- name: Web Development
+  level: ''
+  keywords: []
+- name: NgRx
+  level: ''
+  keywords: []
+- name: ".NET Core"
+  level: ''
+  keywords: []
+- name: HTML 5
+  level: ''
+  keywords: []
+- name: Sass
+  level: ''
+  keywords: []
+- name: CI
+  level: ''
+  keywords: []
+- name: SQL
+  level: ''
+  keywords: []
+- name: TypeScript
+  level: ''
+  keywords: []
+- name: jQuery
+  level: ''
+  keywords: []
+- name: C#
+  level: ''
+  keywords: []
 languages:
-  - language: "English"
-    fluency: "Native speaker"
-  - language: "German"
-    fluency: "Basic vocabulary"
-  - language: "Spanish"
-    fluency: "Basic vocabulary"
-  - language: "Hebrew"
-    fluency: "Alphabetical"
-interests:
-  - name: "Jogging"
-  - name: "Ultimate Frisbee"
-#  references:
-#    - name: ""
-#      reference: ""
+- fluency: Full Professional
+  language: English
+- fluency: Elementary
+  language: French
+- fluency: Elementary
+  language: German
+- fluency: Native Speaker
+  language: Persian
+- fluency: Professional Working
+  language: Russian
+interests: []
+references: []
+projects:
+- name: Ranet Olap
+  startDate: ''
+  summary: |
+    Ranet OLAP is an open source set of data visualization controls – powered by Microsoft Silverlight and was written specifically for SQL Server Analysis Services  with support for SQL Server.
+
+    Ranet OLAP components can be used in various fields and applications. Primarily it is intended for developing analytical applications and Business Intelligence (BI) solutions for business, medical sector, scientific research, etc.
+  url: http://www.galantis.com/ranet/
+- name: Из рук в руки
+  startDate: ''
+  summary:
+  url: http://irr.ru
+meta:
+  version: v1.0.0
+  canonical: https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json
